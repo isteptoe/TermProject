@@ -41,6 +41,7 @@ public class TwoFourTree
      * @return object corresponding to key; null if not found
      */
     public Object findElement(Object key) {
+        //this should be where we seach through the tree, the others will use this method for inserting and removing
         return null;
     }
 
@@ -50,6 +51,11 @@ public class TwoFourTree
      * @param element to be inserted
      */
     public void insertElement(Object key, Object element) {
+        //find where the element should go
+        
+        //put it in
+        
+        //check and fix overflows
     }
 
     /**
@@ -60,8 +66,16 @@ public class TwoFourTree
      * @exception ElementNotFoundException if the key is not in dictionary
      */
     public Object removeElement(Object key) throws ElementNotFoundException {
+        //find the element
+        
+        //remove it
+        
+        //check and fix underflow
+        
         return null;
     }
+    
+   
 
     public static void main(String[] args) {
         Comparator myComp = new IntegerComparator();
